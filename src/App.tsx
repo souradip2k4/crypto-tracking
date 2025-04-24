@@ -4,10 +4,8 @@ import { mockWebSocket } from './utils/mockWebSocket';
 
 const App: React.FC = () => {
   useEffect(() => {
-    // Connect to mock WebSocket when component mounts
     mockWebSocket.connect();
 
-    // Clean up when component unmounts
     return () => {
       mockWebSocket.disconnect();
     };
