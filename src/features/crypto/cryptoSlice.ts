@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { CryptoAsset, CryptoState } from '../../models/types';
+import { CryptoState } from '../../models/types';
 import { sampleCryptoData } from '../../api/cryptoService';
 
 const initialState: CryptoState = {
@@ -38,12 +38,9 @@ export const cryptoSlice = createSlice({
         asset.volume24h = volume24h;
       }
     },
-    updateAllAssets: (state, action: PayloadAction<CryptoAsset[]>) => {
-      state.assets = action.payload;
-    },
   },
 });
 
-export const { updatePrice, updateChangePercentages, updateVolume, updateAllAssets } = cryptoSlice.actions;
+export const { updatePrice, updateChangePercentages, updateVolume} = cryptoSlice.actions;
 
 export default cryptoSlice.reducer;

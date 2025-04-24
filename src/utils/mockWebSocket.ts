@@ -43,14 +43,6 @@ class MockCryptoWebSocket {
       this.intervalId = null;
     }
   }
-
-  setUpdateInterval(ms: number): void {
-    this.updateInterval = ms;
-    if (this.intervalId) {
-      this.disconnect();
-      this.connect();
-    }
-  }
 }
 
 export const mockWebSocket = new MockCryptoWebSocket();
