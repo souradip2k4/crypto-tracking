@@ -13,7 +13,6 @@ export const loadState = (): CryptoState | undefined => {
   }
 };
 
-// Save state to localStorage
 export const saveState = (state: CryptoState): void => {
   try {
     const serializedState = JSON.stringify(state);
