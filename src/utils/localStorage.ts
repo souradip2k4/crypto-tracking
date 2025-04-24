@@ -1,6 +1,5 @@
 import { CryptoState } from '../models/types';
 
-// Load state from localStorage
 export const loadState = (): CryptoState | undefined => {
   try {
     const serializedState = localStorage.getItem('cryptoState');
