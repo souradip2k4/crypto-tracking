@@ -2,6 +2,9 @@
 
 A real-time cryptocurrency price tracking application that displays live market data for various cryptocurrencies.
 
+### Application Video Preview Link
+https://youtu.be/J5fVA7Y-dLA?si=fP897INKcE-fMuH6
+
 ## Setup Instructions
 
 ### Prerequisites
@@ -11,7 +14,7 @@ A real-time cryptocurrency price tracking application that displays live market 
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/crypto-tracking.git
+   git clone https://github.com/souradip2k4/crypto-tracking
    cd crypto-tracking
    ```
 

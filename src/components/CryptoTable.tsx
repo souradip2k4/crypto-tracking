@@ -66,7 +66,7 @@ const CryptoTable: React.FC = () => {
               : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}
             onClick={() => setFilter('losers')}
           >
-            Top Losers
+            Top Loss
           </button>
         </div>
       </div>
