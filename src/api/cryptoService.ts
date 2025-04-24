@@ -1,8 +1,8 @@
 import { CryptoAsset } from '../models/types';
 
-const sampleChartUp = "data:image/svg+xml;base64,..."; // Replace with actual base64 SVG
-const sampleChartDown = "data:image/svg+xml;base64,..."; // Replace with actual base64 SVG
-const sampleChartFlat = "data:image/svg+xml;base64,..."; // Replace with actual base64 SVG
+const sampleChartUp = "up";
+const sampleChartDown = "down";
+const sampleChartFlat = "flat";
 
 export const sampleCryptoData: CryptoAsset[] = [
   {
